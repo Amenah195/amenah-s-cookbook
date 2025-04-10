@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My cookbook </title>
+</head>
+<body>
+    <section></section>
+    <h1>Recipe Gallery</h1>
+    <div class="filter">
+    <label for="categoryfilter">Filter by Category:</label>
+    <select id="categoryfilter" onchange="filterRecipes()">
+        <option value="All">All</option>
+        <option value="Desserts">Desserts</option>
+        <option value="Appetizers">Appetizers</option>
+        <option value="main dishes">Main Dishes</option>
+        <option value="soups-stews">soups-stews</option>
+        <option value="salads">Salads</option>
+        <option value="Vegans">Vegans</option>
+        </select>
+    </div>
+</section>
+        <section>
+        <div class="recipe-grid" id="recipegrid"><br><br>
+            <div class="recipe-card" data-category="Desserts">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/FOOD_Firni.jpg/1200px-FOOD_Firni.jpg" alt="Ferni" width="300" height="300">
+                <h2>Ferni</h2>
+                <p>A creamy Afghan dessert made from milk and cardamom.</p>
+                <a href="recipe-details.html" >View Details</a>
+                </div>
+                <br>
+                <div class="recipe-card" data-category="Main Dishes">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfS-m56mdbOaC3GUZdbyCuKkuRFUcGXsRqfw&s"alt="Kabuli Palaw" width="300" height="300">
+                    <h2>Kabuli Palaw</h2>
+                    <p>Flavorful rice with lamb, carrots, raisins, and nuts.</p>
+                    <a href="recipe-details.html">View Details</a>
+                    </div>
+                    <br>
+                <div class="recipe-card" data-category="Appetizers">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU9FaqrPg-Q7D3GTcYnxrvLHD_M0hU2BBFrw&s" alt="Bolani" width="300" height="300">
+                    <h2>Bolani</h2>
+                    <p>Crispy flatbread filled with potatoes or spinach.</p>
+                    <a href="recipe-details.html">View Details</a>
+                    </div>
+                <br>
+                <div class="recipe-card" data-category="vegan">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSue-FYwSA6V8v8w6ik7g498eETJMwofQGQrjUqtfV7KDx-KciVQIu8bHc_LyS6PKU63CA&usqp=CAU " alt="Sabzi" width="300" height="300">
+                    <h2>Sabzi</h2>
+                    <p>Steamed spinach and herbs, a healthy vegan dish.</p>
+                    <a href="recipe-details.html">View Details</a>
+                    </div>
+                    <br>
+                    <div class="recipe-card" data-category="soups-stews">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyCzT1U_kOikIo3vl2OG01oaz7vAol0MFEgaSyN4WQAhYJrTIKSqrtTuk3kx_ijbFyJGc&usqp=CAU" alt="Chicken soup" width="300" height="300">
+                        <h2>Chicken Soup</h2>
+                        <p>A soup made from chicken,simmered in water, usually with various other ingredients.</p>
+                        <a href="recipe-details.html">View Details</a>
+                        </div>
+                        <br>
+                        <div class="recipe-card" data-category="salads">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWk-FIMM5Ms_3fCNdb70po3wP6qz6kjywvqw&s" alt="Caesar Salad" width="300 " height="300">
+                            <h2>Caesar Salad</h2>
+                            <p>Made with romaine lettuce,croutons,parmesan cheese,and Caesar dressing.</p>
+                            <a href="recipe-details.html">View Details</a>
+                            </div>
+                            <br>
+
+                
+                
+
+            
+        </div>
+    </section>
+    
+</body>
+</html>
